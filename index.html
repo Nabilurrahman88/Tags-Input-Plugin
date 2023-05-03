@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="stylesheet" href="asset/css/tagify.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>jQuery tagify Plugin Demo</h1>
+        <div><span class="input placeholder" data-placeholder="write some tags" contenteditable=""></span></div>
+        <input name="tags" placeholder="write some tags" value="redefined, tags, here">
+    </div>
+
+    </div>
+
+
+
+
+    <script src="asset/js/jquery-3.6.3.min.js"></script>
+    <script src="asset/js/jQuery.tagify.min.js"></script>
+    <script>
+        jQuery(document).ready(function () {
+
+        });
+    </script>
+
+    <Script>
+        $('[name=tags]').tagify()
+        var input = document.querySelector('input[name=tags]'),
+            tagify = new Tagify(input);
+
+    </Script>
+
+
+
+
+
+
+
+</body>
+
+</html>
